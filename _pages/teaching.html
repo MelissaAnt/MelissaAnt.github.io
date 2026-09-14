@@ -5,6 +5,24 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+  .teaching-content {
+    background-color: #f5e6f0; /* rosino/rosa chiaro */
+  }
+  
+  .teaching-content a {
+    color: #c71585; /* fucsia/magenta */
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .teaching-content a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="teaching-content">
+  {% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
