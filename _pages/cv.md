@@ -14,4 +14,4 @@ redirect_from:
 * HIIT postdoctoral fellow, University of Helsinki, 2023-2025
 * CFvW postdoctoral researcher, University of Tübingen, 2026-ongoing
 
-<img src="{{ base_path }}/images/taf.jpg" alt="">
+<img src="{{ base_path }}/images/taf.jpg" alt="Dafne, born in Bologna in November 2022">
