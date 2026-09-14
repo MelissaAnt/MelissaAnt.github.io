@@ -1,29 +1,29 @@
 /* ==========================================================================
-   CONTRAST THEME - LIGHT VERSION
-   ========================================================================== */
+    CONTRAST THEME - LIGHT VERSION
+    ========================================================================== */
 /* Color codes used for the theme */
 $primary-color              : #b60000;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#fff, $primary-color, 50%);
 $lighter-primary-color      : mix(#fff, $primary-color, 90%);
-$background                 : #ffffff;
-$background-light           : #fafafa;
-$background-lighter        : #ffffff;
+$background                 : #fce4ec;
+$background-light           : #f8bbd0;
+$background-lighter        : #fce4ec;
 $text                      : #000000;
 $text-muted                : #404040;
-$link                      : #0000ff;
-$link-dark                 : #0000cc;
-$link-light                : #3333ff;
-$footer                    : #ffffff;
-$border                    : #c0c0c0;
-$border-dark               : #808080;
-$selection-bg              : #b3d4fc;
+$link                      : #d81b60;
+$link-dark                 : #b1104e;
+$link-light                : #e84fa1;
+$footer                    : #fce4ec;
+$border                    : #f48fb1;
+$border-dark               : #d81b60;
+$selection-bg              : #f8bbd0;
 $selection-text            : #000000;
 
 /* Color codes used for the site */
 $danger-color               : #ff0000;
-$info-color                 : #0000ff;
+$info-color                 : #d81b60;
 $notice-color               : #000000;
 $success-color              : #008000;
 $warning-color              : #ff8800;
