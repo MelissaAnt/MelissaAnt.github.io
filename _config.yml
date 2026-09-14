@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Melissa"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://melissaant.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MelissaAnt/MelissaAnt.github.io"
 
@@ -24,7 +24,7 @@ repository               : "MelissaAnt/MelissaAnt.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/Melissa.jpg"
+  avatar           : "Melissa.jpg"
   name             : "Melissa"
   pronouns         : "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
@@ -239,16 +239,16 @@ collections:
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
- # - scope:
- #     path: ""
- #     type: posts
-  #  values:
- #     layout: single
- #     author_profile: true
- #     read_time: true
-  #    comments: true
-  #    share: true
-  #    related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
