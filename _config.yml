@@ -23,12 +23,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Melissa_CFvW"
+  avatar           : "Melissa_CFvW.png"
   name             : "Melissa"
   pronouns         : "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
-  location         : "Doblerstraße 33, Tübingen, Germany"
-  employer         : "Universität Tübingen, CFvW"
+  location         : "Germany"
+  employer         : "Universität Tübingen"
   uri              : # URL
   email            : "melissa.antonelli@uni-tuebingen.de" 
 
