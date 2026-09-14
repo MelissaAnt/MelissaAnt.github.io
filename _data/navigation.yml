@@ -11,8 +11,6 @@ main:
   - title: "Bio"
     url: /cv/
 
-  - title: "Teaching"
-    url: /teaching/
     
   - title: "Publications"
     url: /publications/
@@ -20,6 +18,8 @@ main:
   - title: "Talks"
     url: /talks/   
 
+  - title: "Teaching"
+    url: /teaching/
     
   #- title: "Portfolio"
    # url: /portfolio/
