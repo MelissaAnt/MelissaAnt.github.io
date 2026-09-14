@@ -14,3 +14,4 @@ redirect_from:
 * HIIT postdoctoral fellow, University of Helsinki, 2023-2025
 * CFvW postdoctoral researcher, University of Tübingen, 2026-ongoing
 
+<img src="dafne.jpg" alt="">
