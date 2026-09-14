@@ -27,21 +27,21 @@ author:
   name             : "Melissa"
   pronouns         : "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "University of Tübingen, CFvW"
+  location         : "Doblerstraße 33, Tübingen, Germany"
+  employer         : "Universität Tübingen, CFvW"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "melissa.antonelli@uni-tuebingen.de" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=eGMShjAAAAAJ&hl=it"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0006-9072-4847"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
