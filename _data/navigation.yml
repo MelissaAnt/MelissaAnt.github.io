@@ -9,7 +9,7 @@
 
 main:
   - title: "Publications"
-    url: MelissaAnt.github.io/_publications/
+    url: _publications
 
   - title: "Talks"
     url: /talks/    
