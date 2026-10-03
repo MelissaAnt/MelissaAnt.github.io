@@ -24,7 +24,7 @@ repository               : "MelissaAnt/MelissaAnt.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "dafnedafne.jpg"
+  avatar           : "profile.jpg"
   name             : "Melissa Antonelli"
   pronouns         : "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
@@ -93,7 +93,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   : "/images/dafnedafne.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "/assets/images/profile.jpg" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -109,25 +109,25 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-  staticman:
-    allowedFields          : ['name', 'email', 'url', 'message']
-    branch                 : "gh-pages" # "master", "gh-pages"
-    commitMessage          : "New comment."
-    filename               : comment-{@timestamp}
-    format                 : "yml"
-    moderation             : true
-    path                   : "_data/comments/{options.slug}"
-    requiredFields         : ['name', 'email', 'message']
-    transforms:
-      email                : "md5"
-    generatedFields:
-      date:
-        type               : "date"
-        options:
-          format           : "iso8601" # "iso8601" (default), "timestamp-seconds" # "timestamp-milliseconds"
-  atom_feed:
-    hide                   : false     # change to true to hide the RSS feed in the footer
-    path                   : # blank (default) uses feed.xml
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  hide                   : false     # change to true to hide the RSS feed in the footer
+  path                   : # blank (default) uses feed.xml
 
 
 # SEO Related
@@ -149,16 +149,16 @@ comments:
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 #social:
-  # type                   : # Person or Organization (defaults to Person)
-  # name                   : # If the user or organization name differs from the site's name
+ # type                   : # Person or Organization (defaults to Person)
+ # name                   : # If the user or organization name differs from the site's name
 #  links: # An array of links to social media profiles
 
 
 # Analytics
 #analytics:
-  # provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
-  # google:
-  #   tracking_id          :
+ # provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+ # google:
+ #   tracking_id          :
 
 
 # Reading Files
@@ -220,7 +220,7 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used in the template
+# These settings control the types of collections used by the template
 collections:
   teaching:
     output: true
@@ -330,7 +330,7 @@ whitelist:
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
 #  Path (examples)
-#  - Archive page should exist at path when the user hits a build artifact page.
+#  - Archive page should exist at path when using Liquid method or you can
 #  - expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
@@ -345,9 +345,10 @@ tag_archive:
 # jekyll-archives:
 #   enabled:
 #     - categories
+#     - tags
 #   layouts:
-#     archive-taxonomy
-#     tag-archive-taxonomy
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
